@@ -4,9 +4,10 @@
 header {
       background-color: black;
       padding: 0;
-      margin-bottom: 50px;
+      position: relative;
       text-align: center;
       height: 75px;
+      top: 470px;
            
 }
 
@@ -23,19 +24,19 @@ div {
 div > img{
       
       border-radius: 35px;
-      width: 750px;
+      width: 700px;
       margin: auto;
       box-shadow: 30px 30px 30px 5px #626b62;
 
 }
 
 #text {
-      font-size: 60px;
+      font-size: 70px;
       text-decoration-line: none;
       text-align: center;
       margin: 80px;
       margin-bottom: 100px; 
-      font-family: 'Lugrasimo', cursive;
+      font-family: cursive;
 
 }
 
@@ -67,5 +68,8 @@ div > a {
       border-radius: 50px;
       animation: animar-borde 1s ease-in-out infinite alternate-reverse;
       font-family: 'Tektur', cursive;
+      position: relative;
+      top: 200px;
 }
 
+      
